@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct CreditCard: View {
+struct CreditCard<Content>: View where Content: View {
+    
+    var content: () -> Content
+    
     var body: some View {
-        VStack {
-            CreditCardFront()
-            CreditCardBack()
-        }
+        content()
         
     }
 }
@@ -38,13 +38,13 @@ struct CreditCardBack: View {
                 .foregroundColor(.white)
         }
         .frame(width: 300, height: 200)
-        .background(LinearGradient(colors: [Color.purple, Color.blue], startPoint: .leading, endPoint: .trailing))
+        .background(LinearGradient(colors: [Color.black, Color.white], startPoint: .leading, endPoint: .trailing))
         .cornerRadius(10)
     }
 }
 
 struct CreditCard_Previews: PreviewProvider {
     static var previews: some View {
-        CreditCard()
+        CreditCard<CreditCardFront>(content: {CreditCardFront() })
     }
 }
