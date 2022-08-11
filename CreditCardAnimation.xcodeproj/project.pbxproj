@@ -12,6 +12,8 @@
 		943071BF28A2D0E0004E726C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943071BE28A2D0E0004E726C /* Assets.xcassets */; };
 		943071C228A2D0E0004E726C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943071C128A2D0E0004E726C /* Preview Assets.xcassets */; };
 		943071C928A2D210004E726C /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943071C828A2D210004E726C /* CreditCard.swift */; };
+		943071CE28A54E07004E726C /* P2.png in Resources */ = {isa = PBXBuildFile; fileRef = 943071CC28A54E06004E726C /* P2.png */; };
+		943071CF28A54E07004E726C /* P1.png in Resources */ = {isa = PBXBuildFile; fileRef = 943071CD28A54E07004E726C /* P1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		943071BE28A2D0E0004E726C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943071C128A2D0E0004E726C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		943071C828A2D210004E726C /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		943071CC28A54E06004E726C /* P2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P2.png; sourceTree = "<group>"; };
+		943071CD28A54E07004E726C /* P1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		943071B928A2D0DD004E726C /* CreditCardAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				943071CD28A54E07004E726C /* P1.png */,
+				943071CC28A54E06004E726C /* P2.png */,
 				943071BA28A2D0DD004E726C /* CreditCardAnimationApp.swift */,
 				943071BC28A2D0DD004E726C /* ContentView.swift */,
 				943071BE28A2D0E0004E726C /* Assets.xcassets */,
@@ -129,6 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				943071C228A2D0E0004E726C /* Preview Assets.xcassets in Resources */,
+				943071CE28A54E07004E726C /* P2.png in Resources */,
+				943071CF28A54E07004E726C /* P1.png in Resources */,
 				943071BF28A2D0E0004E726C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

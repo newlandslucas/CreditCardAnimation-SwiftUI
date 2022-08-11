@@ -43,7 +43,7 @@ struct ContentView: View {
                         }
                     }
                     .rotation3DEffect(.degrees(degress),
-                                      axis: (x: 0.0, y: 1, z: 0.0))
+                                      axis: (x: 0.0, y: 1.0, z: 0.0))
                 }
 
                 }
